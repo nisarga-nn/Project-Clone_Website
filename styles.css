@@ -1,0 +1,81 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    background: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #F1FAEE;
+    height: 290px;
+    }
+
+.title{
+    background: #457B9D;
+    margin: 90px auto 0px auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.desc{
+    background: #1D3557;
+    padding: 5px auto 0px auto;
+    border-radius: 10px;
+    margin: 15px auto 0 auto;
+}
+
+.activity{
+    background: #F1FAEE;
+    color: #1D3557;
+}
+    
+.act-head{
+    padding-top: 15px;
+}    
+    
+.img-bd{
+    border-radius: 50%;
+}
+
+.main-activity{
+    display: flex;
+}
+
+.guide{
+    display: flex;
+    background-color: #A8DADC; 
+    width: 400px;
+    margin: 25px auto;
+    border-radius: 10px;
+    border-bottom: 5px solid #1D3557;
+}
+
+.clr-dblu{
+    color: #1D3557;
+}
+
+.pfp{
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.pdes{
+    margin:0px 20px 0px 0px;
+    text-align: justify;
+}
